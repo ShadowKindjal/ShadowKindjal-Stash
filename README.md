@@ -1,16 +1,11 @@
-# Stash Plugins
+# ShadowKindjal-Stash
 
-A collection of custom plugins for [Stash](https://github.com/stashapp/stash).
+Custom plugins and tweaks for [Stash](https://github.com/stashapp/stash).
 
-## Installation
+## Adding This Source to Stash
 
-### Manual Install
-1. Download or clone this repository.
-2. Copy the desired plugin folder from `plugins/` (for example, `plugins/mobile-swipe-to-seek`) into your Stash `plugins/` directory.
-3. In Stash, go to **Settings > Plugins** and click **Reload Plugins**.
-
-*(Optional)* If you enable GitHub Pages for `index.yml`, you can also add your GitHub Pages index URL under **Settings > Plugins > Add Source**.
-
-## Plugins
-
-- **[Mobile Swipe to Seek](./plugins/mobile-swipe-to-seek/README.md)** — Wakes the player overlay on touch, previews 9×9 `OSHash` sprite tiles along the scrub bar, and seeks relative to `.vjs-play-progress.vjs-slider-bar` on release.
+1. Enable **GitHub Pages** on this repository (**Settings > Pages**).
+2. In Stash, go to **Settings > Plugins > Available Plugins** and click **Add Source**.
+3. Enter:
+   ```text
+   [https://shadowkindjal.github.io/ShadowKindjal-Stash/index.yml](https://shadowkindjal.github.io/ShadowKindjal-Stash/index.yml)
