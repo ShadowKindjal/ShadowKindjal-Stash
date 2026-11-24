@@ -1,0 +1,6 @@
+/* Allow horizontal touch gestures on the video player without browser back/forward */
+video,
+.vjs-tech,
+.video-js {
+  touch-action: pan-y !important;
+}
