@@ -1,0 +1,8 @@
+name: Mobile Swipe to Seek
+description: Wake player overlay on touch, preview 9x9 OSHash sprite tiles, and seek relative to play progress bar
+version: 1.7.0
+ui:
+  javascript:
+    - mobile-swipe-to-seek.js
+  css:
+    - mobile-swipe-to-seek.css
